@@ -8,18 +8,18 @@ public class ex5seq {
 		Locale.setDefault(Locale.US);
 		sc.useLocale(Locale.US);
 		
-		int cod1, cod2, qnt1, qnt2;
+		int  qnt1, qnt2;
 		double valor1, valor2, total;
 		
 		System.out.print("Insira o codigo: ");
-		cod1 = sc.nextInt();
+		int cod1 = sc.nextInt();
 		System.out.print("Insira a quantidade: ");
 		qnt1 = sc.nextInt();
 		System.out.print("Insira o valor: ");
 		valor1 = sc.nextDouble();
 		
 		System.out.print("Insira o codigo: ");
-		cod2 = sc.nextInt();
+		int cod2 = sc.nextInt();
 		System.out.print("Insira a quantidade: ");
 		qnt2 = sc.nextInt();
 		System.out.print("Insira o valor: ");
@@ -29,7 +29,7 @@ public class ex5seq {
 		total = qnt1 * valor1 + qnt2 * valor2;
 		
 		System.out.printf("Valor a pagar : R$ %.2f%n", total);
-		
+		System.out.println(cod1 + cod2);
 				
 		sc.close();
 	}
