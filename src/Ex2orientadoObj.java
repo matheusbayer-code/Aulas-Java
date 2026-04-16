@@ -25,7 +25,7 @@ public class Ex2orientadoObj {
 		System.out.println();
 		System.out.print("Which percentage to increase salary? ");
 		double percentage = sc.nextDouble();
-		emp.increseSalary(percentage);
+		emp.increaseSalary(percentage);
 		
 		System.out.println();
 		System.out.print("Updated data: "+ emp);
