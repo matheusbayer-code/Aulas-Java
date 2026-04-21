@@ -10,9 +10,9 @@ public class ExFixacaoMemEstaticos {
 		Scanner sc = new Scanner(System.in);
 		sc.useLocale(Locale.US);
 		
-		System.out.println("What is the dollar price?");
+		System.out.print("What is the dollar price?");
 		double dolarPrice = sc.nextDouble();
-		System.out.println("How many dollars will be bought?");
+		System.out.print("How many dollars will be bought?");
 		double qntDolars = sc.nextDouble();
 		System.out.printf("Amount to be paid in reais = %.2f", CurrencyConverter.reais(dolarPrice, qntDolars));
 		
