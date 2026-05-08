@@ -29,7 +29,6 @@ public class VetoresFix11 {
 		System.out.printf("Maior altura = %.2f%n", Pessoa.maiorAltura(vect));
 		System.out.printf("Media das alturas das mulheres = %.2f%n", Pessoa.mediaFeminina(vect));
 		System.out.printf("Numero de homens = %d", Pessoa.contarHomens(vect));
-		
 		sc.close();
 	}
 	
